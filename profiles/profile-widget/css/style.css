@@ -18,7 +18,7 @@
 */
 
 *{
-    margin:0px;
+    margin:0;
 
 }
 
@@ -29,10 +29,27 @@
     position: relative;
 }
 
+@media screen and (min-width: 359px){
+    .profile{
+        width:90%;
+    }
+
+    .profile h2{
+        font-size:24px;
+    }
+    .followers, .following{
+        width: 160px;
+        font-size: 18px;
+    }
+}
 
 @media screen and (min-width : 480px) {
     .profile {
-        width: 80%;
+        width: 420px;
+    }
+    .followers, .following{
+        width: 208px;
+        font-size: 20px;
     }
 }
 
@@ -41,12 +58,20 @@
     .profile {
         width: 70%;
     }
-}
 
+    .followers, .following{
+        width: 266px;
+        font-size: 20px;
+    }
+}
 
 @media screen and (min-width : 979px) {
     .profile {
         width: 60%;
+    }
+    .followers, .following{
+        width: 238px;
+        font-size: 20px;
     }
 }
 
@@ -54,13 +79,16 @@
     .profile {
         width: 50%;
     }
+    .followers{
+        width:200px;
+    }
+    .following {
+        width: 198px;
+    }
 }
 
-
-
-
 .profile--shadow {
-   box-shadow: 0px 00px 5px #8aaea1;
+   box-shadow: 0 0 5px #8aaea1;
    border-radius: 6px;
    overflow:hidden;
 }
@@ -116,15 +144,6 @@
 .following{
     float:right;
 }
-
-.followers{
-    width:200px;
-}
-
-.following {
-    width: 198px;
-}
-
 .profile__bottom{
     height:60px;
     color: #505a64;
@@ -132,3 +151,7 @@
     background-color: #f2f1ef;
 }
 
+.followers a, .following a{
+    text-decoration: none;
+    color: #505a64;
+    }
