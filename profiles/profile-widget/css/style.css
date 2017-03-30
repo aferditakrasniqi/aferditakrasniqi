@@ -1,13 +1,68 @@
+/*
+
+@media screen and (min-width : 480px) {
+
+}
+
+
+@media screen and (min-width : 767px) {
+}
+
+
+@media screen and (min-width : 979px) {
+}
+
+@media screen and (min-width : 1200px) {
+}
+
+*/
+
 *{
     margin:0px;
 
 }
 
 .profile{
-    width: 50%;
+    width: 83%;
     margin:auto;
     text-align: center;
     position: relative;
+}
+
+
+@media screen and (min-width : 480px) {
+    .profile {
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width : 767px) {
+    .profile {
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width : 979px) {
+    .profile {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    .profile {
+        width: 50%;
+    }
+}
+
+
+
+
+.profile--shadow {
+   box-shadow: 0px 00px 5px #8aaea1;
+   border-radius: 6px;
+   overflow:hidden;
 }
 
 .line{
@@ -24,11 +79,6 @@
     max-height:600px;
 }
 
-.profile{
-   box-shadow: 0px 00px 5px #8aaea1;
-   border-radius: 6px;
-    overflow:hidden;
-}
 
 .image-profile{
     border-radius:50%;
@@ -41,12 +91,18 @@
     margin:auto;
 }
 
-.top{
-    background-color:#8cc9bc;
+.profile__top {
     height:340px;
 }
 
-.top h2{
+.profile__top--bg-cygan {
+    background-color:#8cc9bc;
+}
+.profile__top--bg-red {
+    background-color:red;
+}
+
+.profile__title {
     padding-top: 30px;
     padding-bottom: 25px;
     color: #fff;
@@ -68,9 +124,11 @@
 .following {
     width: 198px;
 }
-.bottom{
+
+.profile__bottom{
     height:60px;
     color: #505a64;
     padding-top:20px;
     background-color: #f2f1ef;
 }
+
