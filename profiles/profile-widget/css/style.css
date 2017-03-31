@@ -1,0 +1,157 @@
+/*
+
+@media screen and (min-width : 480px) {
+
+}
+
+
+@media screen and (min-width : 767px) {
+}
+
+
+@media screen and (min-width : 979px) {
+}
+
+@media screen and (min-width : 1200px) {
+}
+
+*/
+
+*{
+    margin:0;
+
+}
+
+.profile{
+    width: 83%;
+    margin:auto;
+    text-align: center;
+    position: relative;
+}
+
+@media screen and (min-width: 359px){
+    .profile{
+        width:90%;
+    }
+
+    .profile h2{
+        font-size:24px;
+    }
+    .followers, .following{
+        width: 160px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width : 480px) {
+    .profile {
+        width: 420px;
+    }
+    .followers, .following{
+        width: 208px;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width : 767px) {
+    .profile {
+        width: 70%;
+    }
+
+    .followers, .following{
+        width: 266px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width : 979px) {
+    .profile {
+        width: 60%;
+    }
+    .followers, .following{
+        width: 238px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    .profile {
+        width: 50%;
+    }
+    .followers{
+        width:200px;
+    }
+    .following {
+        width: 198px;
+    }
+}
+
+.profile--shadow {
+   box-shadow: 0 0 5px #8aaea1;
+   border-radius: 6px;
+   overflow:hidden;
+}
+
+.line{
+    width:80px;
+    margin:auto;
+    border-top: 2px solid #fff;
+    padding-top:30px;
+}
+
+.container{
+    margin:auto;
+    max-width: 800px;
+    background-image: url(../images/bg.png);
+    max-height:600px;
+}
+
+
+.image-profile{
+    border-radius:50%;
+    border-color: #fff;
+    border-width: 4px;
+    border-style: solid;
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+    margin:auto;
+}
+
+.profile__top {
+    height:340px;
+}
+
+.profile__top--bg-cygan {
+    background-color:#8cc9bc;
+}
+.profile__top--bg-red {
+    background-color:red;
+}
+
+.profile__title {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.followers{
+    float:left;
+    border-right: 2px solid #dcdddf ;
+}
+
+.following{
+    float:right;
+}
+.profile__bottom{
+    height:60px;
+    color: #505a64;
+    padding-top:20px;
+    background-color: #f2f1ef;
+}
+
+.followers a, .following a{
+    text-decoration: none;
+    color: #505a64;
+    }
