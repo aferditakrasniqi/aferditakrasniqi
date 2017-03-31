@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+ul.horizontal-menu{
+    list-style-type: none;
+    padding-left: 680px;
+}
+.horizontal-menu li{
+    text-align: center;
+    margin-right: 50px;
+    padding: 20px 40px 20px 40px;
+}
+.horizontal-menu li a{
+    color: #f0f5eb;
+}
+
+ .head-section h3{
+    padding-top:120px;
+    padding-bottom:55px;
+    color:#242424;
+    font-weight: 500;
+     font-size: 24px;
+}
+
+ .head-section p{
+     color:#aeafaf;
+     padding-bottom: 60px;
+ }
+ .head-section a{
+    text-decoration: none;
+     padding: 20px 55px 20px 55px;
+     background-color: #abca8b;
+     border-radius:5px;
+     color: #eaf2e4;
+ }
+.horizontal-menu li:first-child{
+    background-color: #c4daae;
+    padding: 20px 40px 20px 40px;;
+    color: #f0f5eb;
+    }
+
+ul.horizontal-menu li{
+    display: inline;
+}
+
+ul.horizontal-menu li a {
+    text-decoration: none;
+}
+
+header{
+    padding:50px;
+}
+
+.head-section{
+    background-image: url(../images/clouds1.png);
+    height:470px;
+    min-width:500px;
+    text-align: center;
+}
+
+.testimonials-sec{
+    width:27%;
+    display: inline-block;
+    color: #e5e5e5;
+    text-align: center;
+    padding-top:70px;
+}
+
+.testimonials-header{
+    color:#778391;
+    font-size: 20px;
+}
+
+.testimonials{
+    padding-top:60px;
+
+    max-width:1170px;
+    margin:auto;
+}
+
+.testimonials-mright{
+    margin-right:100px;
+}
+
+.testimonial-pic{
+    margin-bottom:20px;
+}
