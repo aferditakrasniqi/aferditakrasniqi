@@ -7,6 +7,7 @@
         <title>Landing Page</title>
         <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/responsive-design.css">
         <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     </head>
     <body>
@@ -15,13 +16,14 @@
                 <div class="logo">
                     <img class="logo-img" src="https://dummyimage.com/200x60/1c7319/ffffff.png&text=your+logo" alt="">
                 </div>
-                <div class="horizontal-menu">
-                    <ul>
-                        <li><a class="active" href="#">Home</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
+                <div class="drop-down-horizontal-menu">
+                    <a href="#" class="menu-icon">Menu</a>
+                    <div class="horizontal-menu">
+                        <a class="active" href="#">Home</a>
+                        <a href="#">News</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                    </div>
                 </div>
             </header>
             <section class="head-section">
@@ -31,7 +33,7 @@
                 <a href="#">Click me to find out more</a>
             </section>
             <section class="testimonials">
-                <span class="testimonials-header">Testimonials<br></span>
+               <h5 class="testimonials-header">Testimonials</h5>
                 <div class="testimonials-sec testimonials-mright">
                     <div class="testimonial-pic">
                         <img src="images/img1.png" alt="">
@@ -52,13 +54,11 @@
                 </div>
             </section>
             <section class="blog-section">
-
                     <div class="blog-section1">
                         <span class="blog-featured">Featured</span>
                         <h3>This is a simple heading</h3>
                         <p class="blog-post">This should ideally be a featured blog post. But don't let me tell you what to <br>do. <a class="blog-email" href="#">youremail@domain.com</a> will be a link.</p>
                     </div>
-
                     <article class="blog-section2">
                        <div>
                            <span class="blog-tittle">Blog</span>
@@ -66,7 +66,7 @@
                            <div class="blog-pt2">
                                <div class="blog-paragraph">
                                    <p>Nam disgin A written declaration certifying to a person's character, conduct, or qualifications,or to the value, excellence,  of a thing; a letter or written statement of recommendation
-                                       <a href="#">Read More...</a></p>
+                                      </p>
                                </div>
                                <div class="blog-btn">
                                    <a class="blog-button" href="#">See More</a>
@@ -90,12 +90,10 @@
                     <p>2014 Your Company</p>
                 </div>
                 <div class="footer-h-menu">
-                    <ul class="footer-menu">
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Site Map</a></li>
-                    </ul>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Blog</a>
+                        <a href="">About</a>
+                        <a href="">Site Map</a>
                 </div>
             </footer>
         </div><!-- /.container -->

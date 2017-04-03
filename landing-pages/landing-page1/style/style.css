@@ -3,40 +3,45 @@
     padding: 0;
     font-family: 'PT Serif', serif;
 }
-.logo{
-    width:20%;
-    display: inline-block;
+header{
+    width:100%;
+    margin:auto;
+    clear: both;
+    display: block;
+    background-color: #ffffff;
+    padding:5px;
+    position: relative;
 }
-.horizontal-menu{
-    list-style-type: none;
-    width:80%;
+.logo{
     display: inline-block;
+    float:left;
+}
+.horizontal-menu, .menu-icon{
     transform: translate(0,-50%);
-    float:right;
     margin-top:30px;
 }
-.horizontal-menu li{
+.horizontal-menu{
+    display: none;
+}
+.horizontal-menu a, .menu-icon{
     text-align: center;
-    margin-right: 10px;
     padding: 20px 40px 20px 40px;
+    color: #aeafaf;
+    text-decoration: none;
+    display: block;
 }
 .horizontal-menu a:hover{
     background-color: #c4daae;
-}
-.horizontal-menu li a{
-    color: #aeafaf;
-    padding: 20px 40px 20px 40px;
 }
 .active{
     background-color: #abca8b;
     color: #fff !important;
 }
  .head-section h3{
-    padding-top:120px;
+    padding-top:50px;
     padding-bottom:55px;
     color:#242424;
-    font-weight: 500;
-     font-size: 24px;
+    font-weight: 500;  font-size: 24px;
 }
  .head-section p{
      color:#aeafaf;
@@ -49,28 +54,14 @@
      border-radius:5px;
      color: #eaf2e4;
  }
-.horizontal-menu li{
-    display: inline;
-}
-.horizontal-menu li a {
-    text-decoration: none;
-}
-header{
-    max-width: 1170px;
-    margin:auto;
-    clear: both;
-    display: block;
-    background-color: #ffffff;
-    padding: 25px 0 25px 0;
-}
 .head-section{
     background-image: url(../images/clouds1.png);
-    height:470px;
-    min-width:500px;
+    padding-bottom: 50px;
+    width: 100%;
     text-align: center;
 }
 .testimonials-sec{
-    width:27%;
+    width: 100%;
     display: inline-block;
     color: #e5e5e5;
     text-align: center;
@@ -79,30 +70,27 @@ header{
 .testimonials-header{
     color:#778391;
     font-size: 20px;
+    font-weight: 300;
 }
 .testimonials{
-    padding-top:60px;
+    padding-top:30px;
     max-width:1170px;
     margin:auto;
-}
-.testimonials-mright{
-    margin-right:100px;
 }
 .testimonial-pic{
     margin-bottom:20px;
 }
 .blog-section{
-    padding-left:100px;
-    padding-top: 60px;
-    margin-top:140px;
+    padding:40px 10px 10px 10px;
+    margin-top:70px;
     background-color:#f2fbff;
     max-width:1170px;
     margin-left:auto;
     margin-right:auto;
-    padding-bottom:160px;
-    margin-bottom:110px;
+    margin-bottom:30px;
     background-image: url('../images/line-divider.png');
     background-repeat: repeat-x;
+    overflow: hidden;
 }
 .blog-featured{
     display: inline-block;
@@ -111,7 +99,7 @@ header{
     text-transform: uppercase;
 }
 .blog-section1{
-    margin-bottom: 85px;
+    margin-bottom: 40px;
 }
 .blog-section1 h3{
     margin-bottom: 30px;
@@ -137,19 +125,20 @@ header{
     float:left;
 }
 .blog-paragraph{
-    width:60%;
+    width:100%;
     display: inline-block;
     overflow: hidden;
 }
 .blog-button{
     background-color: #ffffff;
-    padding:20px 40px 20px 40px;
+    padding:10px 10px 10px 10px;
     text-decoration: none;
     border-radius: 4px;
     box-shadow: 0 0 3px #e9f2f6;
+    font-size: 12px;
 }
 .blog-btn{
-    margin-left:150px;
+    margin-top:10px;
     display: inline-block;
 }
 .profile-post{
@@ -173,19 +162,14 @@ header{
     padding-left:18px;
 }
 footer{
-    padding-bottom: 100px;
-    width:1270px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 60px;
     margin-left:auto;
     margin-right:auto;
+    max-width: 1200px;
 }
-ul.footer-menu{
-    list-style-type: none;
-}
-ul.footer-menu li{
-    display: inline;
-    padding-right:25px;
-}
-ul.footer-menu li a{
+.footer-h-menu a{
     text-decoration: none;
 }
 .footer-h-menu a:hover{
@@ -196,7 +180,6 @@ ul.footer-menu li a{
     float:left;
 }
 .footer-h-menu{
-    display: inline-block;
+    display: block;
     float:right;
 }
-
