@@ -1,5 +1,4 @@
 @media screen and (max-width: 799px){
-
     .drop-down-horizontal-menu:hover  .horizontal-menu{
         display: block;
         position: absolute;
@@ -17,11 +16,37 @@
     .testimonials-header{
         text-align: center;
     }
+    .drop-down-footer-menu{
+        position: relative;
+    }
+    .drop-down-footer-menu:hover  .footer-h-menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left:0;
+        background-color: #b6c6ce;
+    }
+    .footer-h-menu a{
+        text-align: center;
+        padding: 20px 40px 20px 40px;
+        color: #aeafaf;
+        background-color: cadetblue;
+        text-decoration: none;
+        display: block;
+    }
+    .footer-h-menu a:hover{
+        background-color:#f2f1ef;
+    }
 }
-
 @media screen and (min-width:800px){
-    .menu-icon{
+
+    .menu-icon, .menu-h-icon{
         display: none;
+    }
+    .footer-h-menu{
+        display: inline-block;
+        float:right;
     }
     .horizontal-menu{
         display: inline-block;
@@ -37,21 +62,24 @@
         margin-right: 50px;
     }
     header{
+        clear: both;
         overflow:hidden;
     }
-
 }
-
-@media screen and (min-width:1200px){
-    .menu-icon{
+@media screen and (min-width:1000px){
+    .menu-icon, .menu-h-icon{
         display: none;
+    }
+     .footer-h-menu{
+        display: inline-block;
+        float:right;
+    }
+    .footer-h-menu a {
+        margin-right: 15px;
     }
     .horizontal-menu{
         display: inline-block;
-        float: right;
-    }
-    .horizontal-menu a{
-        display: inline-block;
+        float:right;
     }
     .testimonials-sec{
         width:27%;
