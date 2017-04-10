@@ -17,7 +17,6 @@
     height:995px;
     color:#fff;
 }
-
 .home-h3{
     font-size: 30px;
     padding-top:165px;
@@ -61,7 +60,6 @@ hr{
     box-shadow: 10px 10px 0 5px #95e1d3;
     display: block;
    }
-
 .about-us-img:hover .about-img-bg{
     display: block;
 }
@@ -117,7 +115,24 @@ hr{
     position: absolute;
     background: linear-gradient(to top, rgba(227,205,124,0.95), rgba(219,116,116,0.85));
     display: none;
+    height: auto;
 }
+.our-work-img{
+    position: relative;
+}
+.work-hover-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.work-hover-text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
 .about-img-bg p{
     position: absolute;
     top:50%;
@@ -133,9 +148,15 @@ hr{
     transform: translate(-50%,-50%);
     }
 
+.social-share{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .about-us-services{
     text-align: center;
-      }
+}
 .about-us-services h3{
     text-transform: uppercase;
 }
@@ -197,14 +218,14 @@ hr{
     padding-bottom:15px;
 }
 .photography-txt{
-    padding-top:15px;
+    padding-top:10px;
 }
 .img-txt{
-    padding-bottom:15px;
+    padding-bottom:10px;
     border-bottom: 1px solid #e5e5e5;
 }
 .service-padding-issue{
-    padding-left:15px;
+    padding-left:10px;
 }
 .arrow{
     float:right;
@@ -213,4 +234,193 @@ hr{
 }
 .service-creativity{
     margin-top:10px;
+}
+#service-guy{
+    width: 100%;
+}
+#service-saying{
+    margin-top: 90px;
+    margin-bottom:90px;
+    background:#f8f8f8;
+    height: 290px;
+    position: relative;
+}
+.service-section{
+    margin-top: 90px;
+}
+.saying-section p{
+    display: inline-block;
+    width: 80%;
+    overflow: hidden;
+}
+#speech4{
+    display: inline-block;
+}
+
+.saying-section{
+    display: inline-block;
+    width: 90%;
+    margin-left:60px;
+}
+.arrow-1, .arrow-2{
+    display: inline-block;
+}
+.service-container{
+    position: absolute;
+    max-width: 1190px;
+    margin: auto;
+    top:25%;
+}
+.team-desc{
+    padding-top:25px;
+}
+#brand{
+    margin-top:90px;
+    background: #f8f8f8;
+    padding-top:60px;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+}
+.col-md-3-padd{
+    padding:0;
+}
+.images-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.round-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.clients-head{
+    text-align: center;
+}
+#clients{
+    background: url(../images/Layer-53.png);
+    margin-bottom:110px;
+   }
+.client-img{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    float: left;
+}
+.client-data{
+    width: 75%;
+    float:right;
+}
+.client-hr{
+    width: 40px;
+    height: 2px;
+    background-color: #f38181;
+    margin:0;
+    margin-bottom:15px;
+}
+.client-name p, .client-name hr, .client-description{
+    text-align: left;
+    line-height: 1.7;
+    color: #999999;
+}
+.client-info{
+    margin-bottom:70px;
+}
+.clients-head{
+    padding-top: 100px;
+}
+.cal-date{
+    position: absolute;
+    background-color: #95e1d3;
+    color: #fff;
+    margin-top:-75px;
+    padding:10px;
+    text-align: center;
+}
+.date-no{
+    font-size: 20px;
+}
+.blog-section{
+    position: relative;
+}
+.blog-info p{
+    color:#e8e8e8;
+}
+.blog-info h5{
+    text-transform: uppercase;
+    color: #333333;
+}
+.full-hr{
+    width: 100%;
+    margin-bottom:20px;
+}
+.last-hr{
+    width: 100%;
+    margin-top:70px;
+    color:#cccccc;
+    margin-bottom: 20px;
+}
+.blog-views{
+    display: inline-block;
+    margin-right: 20px;
+}
+.blog-view-padding{
+    margin-right:5px;
+}
+#blog{
+    margin-bottom:110px;
+}
+#map{
+    background: url(../images/map-bg.png);
+    width:100%;
+    height: 200px;
+    text-align: center;
+    color:#f38181;
+    margin-bottom:70px;
+}
+#map hr{
+    background-color:#f38181;
+}
+.vertical-center{
+    transform: translate(0,100%);
+}
+#summary p,h2{
+    color: #cccccc;
+}
+.icon-color{
+    color:#95e1d3;
+}
+.subscribe-pad{
+    padding:12px 0 12px 0;
+}
+.sbutton{
+    background-color: #95e1d3;
+    color:#fff;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left:-4px;
+    border-color: #95e1d3;
+}
+.blog-text{
+    display: inline-block;
+    padding-left:20px;
+    width: 60%;
+}
+.blog-part{
+    margin-top:40px;
+    margin-bottom: 30px;
+}
+.instagram-part{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.insta-photos{
+    margin-bottom: 20px;
+}
+.footer-paragraph{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.our-work-img:hover .about-img-bg{
+    display: block;
 }
