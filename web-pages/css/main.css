@@ -5,10 +5,25 @@
     text-transform: uppercase;
     color:#fff;
 }
+.menu a:hover, .menu a.active{
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+    padding-bottom: 10px;
+}
 .menu{
     float:right;
-    }
-
+}
+.page-logo{
+    float:left;
+    padding-top:20px;
+}
+.logo-title{
+    font-size: 24px;
+}
+.top-container{
+    clear: both;
+    height:60px;
+}
 #home{
     background: url(../images/head-bg.png) fixed;
     background-repeat: no-repeat;
@@ -39,6 +54,9 @@ hr{
     padding: 10px 30px;
     border: 2px solid #fff;
     color: #fff;
+}
+.learn-more-btn:hover{
+    text-decoration: none;
 }
 #about-us{
     background: #fff;
