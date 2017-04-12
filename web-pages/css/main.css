@@ -28,10 +28,10 @@
     height:60px;
 }
 #home{
-    background: url(../images/head-bg.png) fixed;
+    background-image: url(../images/head-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: initial;
     height:995px;
     color:#fff;
 }
@@ -322,9 +322,10 @@ hr{
 .service-container{
     position: absolute;
     width: 60%;
-    margin: auto;
-    top:50%;
-    transform:translate(0,-50%);
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
 }
 .team-desc{
     padding-top:25px;
@@ -451,6 +452,9 @@ hr{
 }
 .subscribe-pad{
     padding:12px 0 12px 0;
+    margin-top: 10px;
+    margin-bottom: 49px;
+    border: 1px solid #e7e7e7;
 }
 .sbutton{
     background-color: #95e1d3;

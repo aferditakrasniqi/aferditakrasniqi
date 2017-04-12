@@ -2,13 +2,11 @@
     #home {
         background-size: initial;
     }
-
     .unique-design-second-img {
         width: 50%;
         margin-left: 50%;
         margin-top: -68%;
     }
-
     .menu-icon {
         display: inline-block;
         float: right;
@@ -16,68 +14,42 @@
         color: #fff;
         padding: 20px 20px 10px 20px;
     }
-
     .menu {
         display: none;
     }
-
     .arrow-1, .arrow-2 {
         display: none;
     }
-
     #speech4 {
         width: 20%;
         float: left;
     }
-
     .saying-section {
         width: 77%;
         margin-left: 0;
     }
-
     .saying-text {
         width: 100%;
-        margin-left: 10px;
+        margin-left: 55px;
         overflow: hidden;
     }
-
     .service-container {
         width: 77%;
     }
-
     .about-us-img:hover .background-hover {
         box-shadow: none;
     }
-
-    .stats {
-        text-align: center;
-        border-left: none;
-        border-right: none;
-    }
-
-    .stats-class {
-        border-right: none;
-        border-bottom: 1px solid #b5eae0;
-    }
-
-    .stats:first-child {
-        border-left: none
-    }
-
     .round-img {
         width: 70px;
         height: 70px;
     }
-
     .our-work-img {
         width: 48%;
         display: inline-block;
     }
-
     .jelly-img {
         width: 100%;
     }
-
     .blog-text {
         padding-left: 10px;
         width: 58%;
@@ -87,7 +59,7 @@
         padding-left: 20px;
     }
     .client-data {
-        width: 50%;
+        width: 66%;
     }
     .drop-down-horizontal-menu:hover  .menu {
         display: block;
@@ -108,11 +80,7 @@
     }
 }
 
-@media screen and (max-width:1200px){
-    #home {
-        background-size: initial;
-    }
-
+@media screen and (max-width: 1200px){
     .stats{
         text-align: center;
         border-left:none;
@@ -125,5 +93,23 @@
     .stats:first-child {
         border-left: none;
     }
+    #speech4 {
+        width: 40%;
+        float: left;
+    }
+    .saying-section {
+        width: 77%;
+        margin-left: 0;
+    }
+    .saying-text {
+        width: 100%;
+        margin-left: 55px;
+        overflow: hidden;
+    }
+}
 
+@media screen and (min-width: 991px){
+    .blog-text{
+        width: 57%;
+    }
 }
