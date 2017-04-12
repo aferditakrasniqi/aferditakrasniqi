@@ -1,3 +1,6 @@
+*{
+    font-family: 'Droid Serif', serif;
+}
 .menu a{
     text-decoration: none;
     display: inline-block;
@@ -77,6 +80,7 @@ hr{
 .about-us-img:hover .background-hover{
     box-shadow: 10px 10px 0 5px #95e1d3;
     display: block;
+
    }
 .about-us-img:hover .about-img-bg{
     display: block;
@@ -113,6 +117,9 @@ hr{
 }
 .vertical-align{
     text-align: center;
+}
+.insta-pic{
+    display: inline-block;
 }
 .stats:first-child{
     border-left:1px solid #b5eae0;
@@ -218,6 +225,7 @@ hr{
 }
 .unique-design-second-img{
     position: absolute;
+    width: 100%;
     margin-left: 68%;
     margin-top: -65%;
 }
@@ -498,7 +506,7 @@ hr{
     position: absolute;
 }
 .name-line{
-    margin-left:50px;
+    margin-left:55px;
 }
 .blog-img{
     vertical-align: bottom;
@@ -513,8 +521,7 @@ hr{
     display:block;
     float: left;
     background-color: #fce38a;
-  }
-
+ }
 .social-share li{
     border-right:1px solid #f38181;
 }
@@ -541,4 +548,66 @@ hr{
 }
 .social-share li:hover i{
     color: white;
+}
+.blog-section a{
+    text-decoration: none;
+}
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+input[type=search] {
+    border: none;
+    padding: 2px 10px 2px 32px;
+    width: 55px;
+    border-radius: 10em;
+    transition: all .5s;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+/* Demo 2 */
+#demo-2 input[type=search] {
+    background: url('../images/MAGNIFYING-GLASS.png') no-repeat 9px center;
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#demo-2 input[type=search]:focus {
+    border:1px solid #fff;
+    width: 130px;
+    padding-left: 32px;
+    color: #000;
+    background-color:transparent;
+    cursor: auto;
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+#demo-2 input::-webkit-input-placeholder {
+    color: transparent;
+}
+.ex-search{
+    position: relative;
+}
+.search-icon{
+    color: #fce38a;
+    position: absolute;
+    top: 50%;
+    left:5%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.menu-icon{
+    display: none;
 }
